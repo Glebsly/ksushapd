@@ -55,6 +55,8 @@ h1,h2,h3{line-height:1.12;letter-spacing:-.045em;font-weight:500}
 .side-project h3{font-size:28px;margin-top:8px}
 .side-project>p{font-size:15px;color:var(--muted)}
 .side-project-number{font-size:12px;color:var(--muted)}
+.side-project-video{grid-column:1/-1;margin:0}
+.side-project-video video{display:block;width:100%;height:auto;aspect-ratio:2082/1334;border-radius:var(--radius);background:#171b1a}
 .about{display:grid;grid-template-columns:.9fr 1.1fr;gap:100px;padding-block:30px 110px}
 .about h2{font-size:42px;margin-top:20px}
 .experience{font-size:70px;line-height:1;margin-top:36px;color:var(--green);letter-spacing:-.08em}
